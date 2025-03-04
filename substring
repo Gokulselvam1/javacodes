@@ -1,0 +1,18 @@
+ class Main {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+        StringBuilder sb = new StringBuilder("Hello, World!");
+        StringBuffer sbf = new StringBuffer("Hello, World!");
+        
+        
+        String subStr1 = str.substring(7, 12);
+        String subStr2 = sb.substring(7, 12);
+        String subStr3 = sbf.substring(7, 12);
+        
+      
+        System.out.println("Original String: " + str);
+        System.out.println("Substring from String: " + subStr1);
+        System.out.println("Substring from StringBuilder: " + subStr2);
+        System.out.println("Substring from StringBuffer: " + subStr3);
+    }
+}
